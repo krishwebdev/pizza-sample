@@ -5,6 +5,10 @@ The purpose of this project is to create a restaurant website in bootsrap follow
 
 * [Bootstrap 4](https://getbootstrap.com/)
 
+## Resources
+
+* Images :
+
 ## Author
 
 * Adrien Di Prima
