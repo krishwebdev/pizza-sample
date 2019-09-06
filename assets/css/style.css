@@ -1,0 +1,49 @@
+body{
+  font-family: 'Abel', sans-serif !important;
+}
+
+.btn{
+  background-color: #fac564 !important;
+  border-radius: 0 !important;
+}
+.btn:hover{
+  background-color: transparent !important;
+  border: 1px solid #fac564;
+  color: #fac564 !important;
+}
+/*///////////////////// Navbar ///////////////////*/
+.navbar {
+    background: #121618 !important;
+}
+.navbar-dark .navbar-toggler{
+  border:0 !important;
+}
+.navbar-dark .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+/* change the link color */
+.navbar .navbar-nav .nav-link {
+    color: rgb(255, 255, 255) !important;
+}
+/* change the color of active or hovered links */
+.navbar .nav-item.active .nav-link,
+.navbar .nav-item:hover .nav-link {
+  color: #fac564 !important;
+}
+/*///////////////////// Jumbotron //////////////////*/
+.jumbotron{
+  border-radius: 0 !important;
+}
+.bg-image {
+  background: url('../img/bg_jumbotron.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.promo{
+  background-color: #FFF;
+}
+.news{
+  background-color: #fac564;
+}
