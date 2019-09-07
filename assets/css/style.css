@@ -1,13 +1,8 @@
 body{
   font-family: 'Abel', sans-serif !important;
 }
-@media (max-width: 576px) {
-  h1{
-    font-size: 2.5rem !important;
-  }
-  h2{
-    font-size: 2.5rem !important;
-  }
+a:hover{
+  color: #fac564 !important;
 }
 .btn{
   background-color: #fac564 !important;
@@ -21,7 +16,7 @@ body{
 }
 /*///////////////////// Navbar ///////////////////*/
 .navbar {
-    background: #121618 !important;
+    background-color: #121618 !important;
 }
 .navbar-dark .navbar-toggler{
   border:0 !important;
@@ -68,4 +63,44 @@ body{
   width: 40px;
   margin: 0 auto 0 auto;
   background-color: #fac564;
+}
+/*//////////////// footer ////////////////////*/
+footer{
+  background-color: #181e21;
+  display: flex;
+  flex-direction: row;
+}
+footer p{
+  color: rgb(210, 213, 212);
+  text-align: center;
+}
+footer ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+}
+footer ul li a{
+  margin-right: 20px;
+  color: rgb(210, 213, 212);
+}
+/*///////////////////// Media Queries ///////////////////*/
+
+@media (max-width: 576px) {
+  h1{
+    font-size: 2.5rem !important;
+  }
+  h2{
+    font-size: 2.5rem !important;
+  }
+}
+@media (min-width:768px){
+  footer ul{
+    justify-content: flex-end;
+  }
+  footer p{
+    text-align: left;
+  }
 }
