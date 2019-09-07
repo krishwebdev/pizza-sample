@@ -44,8 +44,20 @@ a:hover{
   -o-background-size: cover;
   background-size: cover;
 }
-
-/*//////////////// Section promo & news ////////////*/
+.title-page{
+  margin-top: 71px !important;
+}
+.title-page h1{
+  color: #FFF;
+}
+.menu-header{
+  background: url('../img/bg_menu.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*//////////////// Section ////////////*/
 .promo{
   background-color: #FFF;
 }
@@ -64,9 +76,17 @@ a:hover{
   margin: 0 auto 0 auto;
   background-color: #fac564;
 }
+.badge{
+  font-size: 1.8rem !important;
+  padding: 0!important;
+}
+.menu-content small{
+  line-height: 1.2rem;
+  color: rgb(126, 126, 126);
+}
 /*//////////////// footer ////////////////////*/
 footer{
-  background-color: #181e21;
+  background-color: #121618;
   display: flex;
   flex-direction: row;
 }
@@ -102,5 +122,10 @@ footer ul li a{
   }
   footer p{
     text-align: left;
+  }
+}
+@media (min-width:1024px){
+  .title-page{
+    margin-top: 87px !important;
   }
 }
