@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Gallery Papa Pizza">
+  <meta name="description" content="Contact Papa Pizza">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Papa Pizza - Gallery</title>
+  <title>Papa Pizza - contact</title>
   <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
   <link rel="stylesheet" href="../assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
@@ -32,13 +32,13 @@
             <li class="nav-item">
               <a href="menu.html" class="nav-link">Menu</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a href="gallery.html" class="nav-link">Gallery</a>
             </li>
             <li class="nav-item">
               <a href="about.html" class="nav-link">About</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a href="contact.html" class="nav-link">Contact</a>
             </li>
           </ul>
@@ -47,59 +47,51 @@
     </nav>
   </header>
   <main>
-    <section class="jumbotron jumbotron-fluid text-center title-page gallery-header mb-0">
+    <section class="jumbotron jumbotron-fluid text-center title-page contact-header mb-0">
       <div class="container">
-        <h1 class="display-4 text-uppercase">Gallery</h1>
+        <h1 class="display-4 text-uppercase">Contact</h1>
       </div>
     </section>
-    <section class="container my-5">
+    <section class="about-content container my-5">
       <div class="row">
-        <div class="col-12">
-
-          <div id="carouselExampleIndicators" class="carousel slide">
-            <nav aria-label="Gallery pagination" class="mb-4">
-              <ul class="carousel-indicators">
-                <li class="page-item active" data-target="#carouselExampleIndicators" data-slide-to="0"><a class="page-link" href="#">1</a></li>
-                <li class="page-item" data-target="#carouselExampleIndicators" data-slide-to="1"><a class="page-link" href="#">2</a></li>
-                <li class="page-item" data-target="#carouselExampleIndicators" data-slide-to="2"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item" data-target="#carouselExampleIndicators" data-slide-to="3"><a class="page-link" href="#">4</a></li>
-              </ul>
-            </nav>
-
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                  <img class="col-md-6 col-lg-4 mb-4 d-block w-100 h-100" src="../assets/img/img_news_1.jpg" alt="Papa pizza Photo">
-                  <img class="col-md-6 col-lg-4 mb-4 d-block w-100 h-100" src="../assets/img/img_news_2.jpg" alt="Papa pizza Photo">
-                  <img class="col-md-6 col-lg-4 mb-4 d-block w-100 h-100" src="../assets/img/img_news_3.jpg" alt="Papa pizza Photo">
-                </div>
+        <div class="col-12 col-md-8 offset-md-2">
+          <form>
+            <div class="form-row mb-2">
+              <div class="form-group col-md-6">
+                <label for="firstName">First name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="First name">
               </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <img class="col-md-6 col-lg-4 mb-4 d-block w-100 h-100" src="../assets/img/img_gallery_1.jpg" alt="Papa pizza Photo">
-                  <img class="col-md-6 col-lg-4 mb-4 d-block w-100 h-100" src="../assets/img/img_gallery_2.jpg" alt="Papa pizza Photo">
-                  <img class="col-md-6 col-lg-4 mb-4 d-block w-100 h-100" src="../assets/img/img_gallery_3.jpg" alt="Papa pizza Photo">
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <img class="col-md-6 col-lg-4 mb-4 d-block w-100 h-100" src="../assets/img/img_gallery_4.jpg" alt="Papa pizza Photo">
-                  <img class="col-md-6 col-lg-4 mb-4 d-block w-100 h-100" src="../assets/img/img_gallery_5.jpg" alt="Papa pizza Photo">
-                  <img class="col-md-6 col-lg-4 mb-4 d-block w-100 h-100" src="../assets/img/img_gallery_6.jpg" alt="Papa pizza Photo">
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <img class="col-md-6 col-lg-4 mb-4 d-block w-100 h-100" src="../assets/img/img_gallery_7.jpg" alt="Papa pizza Photo">
-                  <img class="col-md-6 col-lg-4 mb-4 d-block w-100 h-100" src="../assets/img/img_gallery_8.jpg" alt="Papa pizza Photo">
-                  <img class="col-md-6 col-lg-4 mb-4 d-block w-100 h-100" src="../assets/img/img_gallery_9.jpg" alt="Papa pizza Photo">
-                </div>
+              <div class="form-group col-md-6">
+                <label for="lastName">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Last name">
               </div>
             </div>
-          </div>
+            <div class="form-row mb-2">
+              <div class="form-group col-md-6">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputState">Subject</label>
+                <select class="form-control" id="subject" placeholder="Type your message here">
+                  <option>General information</option>
+                  <option>Complaints</option>
+                  <option>Reception / Large Booking</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row mb-2">
+              <div class="form-group col-md-12">
+                <label for="message">Message</label>
+   <textarea class="form-control" id="message" rows="3" placeholder="Type your message here"></textarea>
+              </div>
+
+            </div>
+            <button type="submit" class="btn btn-primary"><i class="fa fa-caret-right"></i> Send your message</button>
+          </form>
         </div>
       </div>
-
     </section>
   </main>
   <footer class="pt-4 pb-3">

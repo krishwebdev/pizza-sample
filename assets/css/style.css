@@ -2,6 +2,9 @@ body{
   font-family: 'Abel', sans-serif !important;
   color: #121618 !important;
 }
+ul{
+    list-style-type: none;
+}
 a:hover{
   color: #fac564 !important;
 }
@@ -15,7 +18,7 @@ a:hover{
   border: 1px solid #fac564;
   color: #fac564 !important;
 }
-/*///////////////////// Navbar ///////////////////*/
+/*///////////////////////////// Navbar //////////////////////////////*/
 .navbar {
     background-color: #121618 !important;
 }
@@ -25,16 +28,14 @@ a:hover{
 .navbar-toggler-icon{
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
-/* change the link color */
 .navbar .navbar-nav .nav-link {
     color: #FFF !important;
 }
-/* change the color of active or hovered links */
 .navbar .nav-item.active .nav-link,
 .navbar .nav-item:hover .nav-link {
   color: #fac564 !important;
 }
-/*///////////////////// Jumbotron //////////////////*/
+/*///////////////////////// Jumbotron Home ////////////////////////////*/
 .jumbotron{
   border-radius: 0 !important;
 }
@@ -45,6 +46,7 @@ a:hover{
   -o-background-size: cover;
   background-size: cover;
 }
+/*///////////////////////// Jumbotron Pages ////////////////////////////*/
 .title-page{
   margin-top: 71px !important;
 }
@@ -65,7 +67,40 @@ a:hover{
   -o-background-size: cover;
   background-size: cover;
 }
-/*//////////////// Section ////////////*/
+.about-header{
+  background: url('../img/bg_about.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.contact-header{
+  background: url('../img/bg_contact.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*////////////////////////// Form ///////////////////////////////*/
+form button{
+  border: 1px solid #fac564 !important;
+  padding: 10px 30px !important;
+}
+form button i{
+  margin-right: 5px;
+}
+.form-control{
+
+  border: 1px solid #ced4da;
+  border-radius: 0 !important;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:focus {
+    border: 1px solid rgba(250, 197, 100) !important;
+    box-shadow: 0 0 0 .2rem rgba(250, 197, 100, 0.5) !important;
+}
+/*/////////////////////////// Section /////////////////////////*/
 .promo{
   background-color: #FFF;
 }
@@ -92,7 +127,15 @@ a:hover{
   line-height: 1.2rem;
   color: rgb(126, 126, 126);
 }
-/*///////////////// Gallery //////////////////*/
+.google-map iframe{
+  width: 100%;
+  height: 400px;
+}
+h3 i{
+  color: #fac564;
+}
+
+/*//////////////////// Gallery //////////////////////*/
 .carousel-indicators{
   position: relative !important;
 }
@@ -115,11 +158,10 @@ a:hover{
   border-color: #fac564 !important;
 }
 
-/*//////////////// footer ////////////////////*/
+/*///////////////////// footer ///////////////////////*/
 footer{
   background-color: #121618;
-  display: flex;
-  flex-direction: row;
+  width: 100%;
 }
 footer p{
   color: rgb(210, 213, 212);
@@ -131,12 +173,17 @@ footer ul{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  list-style-type: none;
+}
+footer ul li{
+    margin-right: 20px;
+}
+footer ul li:last-child{
+    margin-right: 0px;
 }
 footer ul li a{
-  margin-right: 20px;
   color: rgb(210, 213, 212);
 }
+
 /*///////////////////// Media Queries ///////////////////*/
 
 @media (max-width: 576px) {
