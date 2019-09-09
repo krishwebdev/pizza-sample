@@ -1,4 +1,4 @@
-# Project Title
+# Papa Pizza restaurant website
 The purpose of this project is to create a restaurant website in bootsrap following [this briefing](https://github.com/becodeorg/BXL-Johnson-4.14/blob/master/03-HTML-CSS/bootstrap/restaurant.adoc).
 
 ## Built with
@@ -7,7 +7,11 @@ The purpose of this project is to create a restaurant website in bootsrap follow
 
 ## Resources
 
-* Images :
+### Images
+
+* [Pexels](https://www.pexels.com/) 
+* [Pixabay](https://pixabay.com/fr/)
+* [Free Vector](http://freevector.co/)
 
 ## Author
 
