@@ -127,6 +127,9 @@ textarea.form-control{
 .promo {
   background-color: #FFF;
 }
+.promo img{
+  height: 100%;
+}
 
 .news {
   background: url('../img/bg_news.jpg') no-repeat center center;
@@ -200,7 +203,7 @@ h3 i {
   border-color: #fac564 !important;
 }
 
-/*///////////////////// footer ///////////////////////*/
+/*///////////////////// Footer ///////////////////////*/
 footer {
   background-color: #121618;
   width: 100%;
