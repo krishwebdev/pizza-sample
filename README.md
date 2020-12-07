@@ -15,10 +15,4 @@ The purpose of this project is to create a responsive restaurant website in boot
 
 ## Author
 
-* Adrien Di Prima
-
-## Screenshots
-
-![Screenshot home](assets/img/screenshot_1.jpg)
-![Screenshot home](assets/img/screenshot_2.jpg)
-![Screenshot page responsive](assets/img/screenshot_3.jpg)
+* Krish Shah
